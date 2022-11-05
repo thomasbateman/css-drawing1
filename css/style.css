@@ -1,0 +1,96 @@
+@import url(fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+body {
+  background-color: whitesmoke;
+}
+.anfield {
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  border: 1px solid black;
+  position: relative;
+}
+.block {
+  width: 150px;
+  height: 150px;
+  background: orangered;
+  position: absolute;
+  bottom: 0;
+  left: 125px;
+}
+.window {
+  width: 50px;
+  height: 50px;
+  background: whitesmoke;
+  position: absolute;
+  bottom: 50px;
+  left: 200px;
+}
+.door {
+  width: 45px;
+  height: 100px;
+  background: rgb(255, 123, 0);
+  position: absolute;
+  bottom: 0px;
+  left: 140px;
+}
+.roof {
+  z-index: 2;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  /* background: red; */
+  left: 98px;
+  top: 50px;
+  border-top: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid rgb(73, 15, 0);
+}
+.tube{
+  width: 25px;
+  height: 55px;
+  background: rgb(255, 123, 0);
+  position: absolute;
+  bottom: 190px;
+  left: 140px;
+}
+.smog1{
+  width: 40px;
+  height: 40px;
+  background: rgb(65, 62, 59);
+  position: absolute;
+  bottom: 250px;
+  left: 110px;
+  border-radius: 100%;
+}
+.smog2{
+  width: 40px;
+  height: 40px;
+  background: rgb(65, 62, 59);
+  position: absolute;
+  bottom: 300px;
+  left: 90px;
+  border-radius: 100%;
+}
+.smog3{
+  width: 40px;
+  height: 40px;
+  background: rgb(65, 62, 59);
+  position: absolute;
+  bottom: 350px;
+  left: 50px;
+  border-radius: 100%;
+}
+h1{
+  display: flex;
+  text-align:center ;
+  justify-content: center;
+  margin-top: 50px;
+}
